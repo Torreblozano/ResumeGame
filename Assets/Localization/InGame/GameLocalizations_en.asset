@@ -1,0 +1,197 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: GameLocalizations_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 7ac0eb10e0fec874aafff808ec7ec4cb, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 9362219008
+    m_Localized: Languages
+    m_Metadata:
+      m_Items: []
+  - m_Id: 472635678720
+    m_Localized: Back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40250517233664
+    m_Localized: View my resume.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42640142245888
+    m_Localized: Send me an email.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42817271898112
+    m_Localized: Contact me on LinkedIn.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42928710361088
+    m_Localized: Take a look at my portfolio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43048499683328
+    m_Localized: Change the game settings.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44084626989056
+    m_Localized: "<b>Python PCAP Certification with AI specialization</b> \u2013
+      Tokio New Technology School (2024)<br>\n<b>Virtual Reality Technician Android
+      & iOS</b> \u2013 Escuela de Organizaci\xF3n Industrial (2018)<br>\n<b>Angular
+      JS Scholarship</b> \u2013 CMV Consultores (2018)<br>\n<b>Master in C# & .NET
+      Programming for Video Games</b> \u2013 Data Control (2014\u20132015)<br>\n<b>Master
+      in 3D Generalist</b> \u2013 Animum 3D School (2013\u20132014)<br>\n<b>Bachelor
+      in Audiovisual Communication</b> \u2013 Universidad de M\xE1laga (2009\u20132013)<br>\n<b>Direction
+      and Postproduction (Online)</b> \u2013 Universidad de San Valero (2011\u20132012)<br>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47649680531456
+    m_Localized: "<b>Lead Unity Developer</b> / Meifus Industrial (Hoy)<br>\n<b>Mid
+      Unity Developer</b> / Moca VRE (2023-2024)<br>\n<b>Mid Unity Developer</b>
+      / Uttopion Metaverse (2022-2023)<br>\n<b>Programming and 3D Design Teacher</b>
+      / Implika Formaci\xF3n (2019-2022)<br>\n<b>Freelance</b> (2018-2022)<br>\n<b>JR
+      Unity Developer</b> / Vicom Works (2019-2020)<br>\n<b>Unity Developer</b> /
+      Perita Studio (2017-2018)<br>\n<b>Online Teacher (rigging and texturing)</b>
+      / Data Control (2016)<br>\n<b>3D Modeler and Junior Unity Programmer</b> /
+      BamboSoft (2015)<br>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47811614220288
+    m_Localized: <b>Spanish</b> Native <br><br><b>English</b> B2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48180578754560
+    m_Localized: '<b>C#</b><br>
+
+      <b>.NET</b><br>
+
+      <b>Python</b><br>
+
+      <b>IA</b><br>
+
+      <b>Data
+      Mining</b><br>
+
+      <b>Data  Analyst</b><br>
+
+      <b>MySQL</b><br>
+
+      <b>Godot</b><br>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53108214865920
+    m_Localized: Change language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53552106446848
+    m_Localized: Resume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53669576318976
+    m_Localized: E-mail
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53836346040320
+    m_Localized: Portfolio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53991430430720
+    m_Localized: Settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54125350363136
+    m_Localized: Exit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54232221229056
+    m_Localized: Academic EXP.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54347543617536
+    m_Localized: Work  EXP.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54603769454592
+    m_Localized: Skills
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75658395394048
+    m_Localized: Yes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75700040638464
+    m_Localized: No
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146553898016768
+    m_Localized: Self learning
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146236707971072
+    m_Localized: Persuasion
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146657916755968
+    m_Localized: We will call you
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146871222280192
+    m_Localized: Irresistible job offer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 147225993289728
+    m_Localized: Generic question
+    m_Metadata:
+      m_Items: []
+  - m_Id: 147355383373824
+    m_Localized: Where do you see yourself in 5 years?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 147529086279680
+    m_Localized: Technical test
+    m_Metadata:
+      m_Items: []
+  - m_Id: 147660556738560
+    m_Localized: Sprint
+    m_Metadata:
+      m_Items: []
+  - m_Id: 147748939112448
+    m_Localized: Branch change
+    m_Metadata:
+      m_Items: []
+  - m_Id: 147960034238464
+    m_Localized: Code Review
+    m_Metadata:
+      m_Items: []
+  - m_Id: 148073108480000
+    m_Localized: Salary according to the agreement
+    m_Metadata:
+      m_Items: []
+  - m_Id: 150300455870464
+    m_Localized: Fight
+    m_Metadata:
+      m_Items: []
+  - m_Id: 150395477827584
+    m_Localized: Run away
+    m_Metadata:
+      m_Items: []
+  - m_Id: 635704846065664
+    m_Localized: "Move: wasd / \u2191 \u2193 \u2192 \u2190 <br> Action: C <br> Cancel:
+      X"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

@@ -1,0 +1,520 @@
+fileFormatVersion: 2
+guid: fb6c04de6bfd9764ebf19dac88b496ef
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 35
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pokemon_sword_gloria__female_player__gen_4_ow_v2_by_boonzeet_ddxoofo_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2b53960873b5a3479aec166aadf4892
+      internalID: 1718616450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_sword_gloria__female_player__gen_4_ow_v2_by_boonzeet_ddxoofo_1
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4428dd47ab54134aae0929ea101fb7c
+      internalID: -2092474347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_sword_gloria__female_player__gen_4_ow_v2_by_boonzeet_ddxoofo_2
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfafa3b0ee526264e8ef8ff3cedd1a43
+      internalID: 678451784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_sword_gloria__female_player__gen_4_ow_v2_by_boonzeet_ddxoofo_3
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20c1680a01c722a4f902a182d79c84a5
+      internalID: 874992516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_sword_gloria__female_player__gen_4_ow_v2_by_boonzeet_ddxoofo_6
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 841b785cf46235449aca46350bfa6199
+      internalID: -1070745126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_sword_gloria__female_player__gen_4_ow_v2_by_boonzeet_ddxoofo_7
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f9670a110ab24044a5121a1d0ae5180
+      internalID: 449652229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_sword_gloria__female_player__gen_4_ow_v2_by_boonzeet_ddxoofo_8
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cb122a981d586a46b93be1397aebab0
+      internalID: 205812142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_sword_gloria__female_player__gen_4_ow_v2_by_boonzeet_ddxoofo_9
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce6fed85ab73b0549b72a912ee7c878a
+      internalID: -1048948827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_sword_gloria__female_player__gen_4_ow_v2_by_boonzeet_ddxoofo_12
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 350986dc3503d8645b265de980bd5b0a
+      internalID: -971103963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_sword_gloria__female_player__gen_4_ow_v2_by_boonzeet_ddxoofo_13
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50ec1c6d5a3393d4a97c8d7c730a1ecf
+      internalID: -1305372159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_sword_gloria__female_player__gen_4_ow_v2_by_boonzeet_ddxoofo_14
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c26a277a400c3240897ac979d5a0dc8
+      internalID: 1746579767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_sword_gloria__female_player__gen_4_ow_v2_by_boonzeet_ddxoofo_15
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 400073141969d1f49af48a0cc961ed53
+      internalID: 1581283636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_sword_gloria__female_player__gen_4_ow_v2_by_boonzeet_ddxoofo_18
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4f40dddaf8979b409ba47f292283541
+      internalID: -1031057023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_sword_gloria__female_player__gen_4_ow_v2_by_boonzeet_ddxoofo_19
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 231701547c6b16f4b94f06f2ca4e4163
+      internalID: 1844831974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_sword_gloria__female_player__gen_4_ow_v2_by_boonzeet_ddxoofo_20
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c223d73e8bd7da468610e7f0e714d95
+      internalID: -1063718185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_sword_gloria__female_player__gen_4_ow_v2_by_boonzeet_ddxoofo_21
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdfc8c98a08030c4284046f8c7b16a6c
+      internalID: -1085455961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_sword_gloria__female_player__gen_4_ow_v2_by_boonzeet_ddxoofo_4
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 11
+        width: 178
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a442b33bd559c9d4baf31ccedf05f69a
+      internalID: -1934290907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      pokemon_sword_gloria__female_player__gen_4_ow_v2_by_boonzeet_ddxoofo_0: 1718616450
+      pokemon_sword_gloria__female_player__gen_4_ow_v2_by_boonzeet_ddxoofo_1: -2092474347
+      pokemon_sword_gloria__female_player__gen_4_ow_v2_by_boonzeet_ddxoofo_10: 1767653416
+      pokemon_sword_gloria__female_player__gen_4_ow_v2_by_boonzeet_ddxoofo_11: 1205545648
+      pokemon_sword_gloria__female_player__gen_4_ow_v2_by_boonzeet_ddxoofo_12: -971103963
+      pokemon_sword_gloria__female_player__gen_4_ow_v2_by_boonzeet_ddxoofo_13: -1305372159
+      pokemon_sword_gloria__female_player__gen_4_ow_v2_by_boonzeet_ddxoofo_14: 1746579767
+      pokemon_sword_gloria__female_player__gen_4_ow_v2_by_boonzeet_ddxoofo_15: 1581283636
+      pokemon_sword_gloria__female_player__gen_4_ow_v2_by_boonzeet_ddxoofo_16: -721616681
+      pokemon_sword_gloria__female_player__gen_4_ow_v2_by_boonzeet_ddxoofo_17: -1984137333
+      pokemon_sword_gloria__female_player__gen_4_ow_v2_by_boonzeet_ddxoofo_18: -1031057023
+      pokemon_sword_gloria__female_player__gen_4_ow_v2_by_boonzeet_ddxoofo_19: 1844831974
+      pokemon_sword_gloria__female_player__gen_4_ow_v2_by_boonzeet_ddxoofo_2: 678451784
+      pokemon_sword_gloria__female_player__gen_4_ow_v2_by_boonzeet_ddxoofo_20: -1063718185
+      pokemon_sword_gloria__female_player__gen_4_ow_v2_by_boonzeet_ddxoofo_21: -1085455961
+      pokemon_sword_gloria__female_player__gen_4_ow_v2_by_boonzeet_ddxoofo_22: -245236676
+      pokemon_sword_gloria__female_player__gen_4_ow_v2_by_boonzeet_ddxoofo_3: 874992516
+      pokemon_sword_gloria__female_player__gen_4_ow_v2_by_boonzeet_ddxoofo_4: -1934290907
+      pokemon_sword_gloria__female_player__gen_4_ow_v2_by_boonzeet_ddxoofo_5: 1841220948
+      pokemon_sword_gloria__female_player__gen_4_ow_v2_by_boonzeet_ddxoofo_6: -1070745126
+      pokemon_sword_gloria__female_player__gen_4_ow_v2_by_boonzeet_ddxoofo_7: 449652229
+      pokemon_sword_gloria__female_player__gen_4_ow_v2_by_boonzeet_ddxoofo_8: 205812142
+      pokemon_sword_gloria__female_player__gen_4_ow_v2_by_boonzeet_ddxoofo_9: -1048948827
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

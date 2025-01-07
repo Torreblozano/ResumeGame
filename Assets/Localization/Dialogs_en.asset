@@ -1,0 +1,150 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Dialogs_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 3b4be280435bcf74bb5451e511119502, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 59752587264
+    m_Localized: "Turning on \xC1lvaro's PC<br>...<br>Here you can view my r\xE9sum\xE9,
+      contact me, or change the game settings.<br>Do you want to access it?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2798508474638336
+    m_Localized: We regret to inform you that you are not continuing in the selection
+      process... <br> that's what I'll say to you when I'm done with you
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2829177854631936
+    m_Localized: You move on to the next phase
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2829364304027648
+    m_Localized: Have you read 'Clean Code' by Robert C. Martin?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2835670591086592
+    m_Localized: Maybe you've impressed others, but you won't succeed with me...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2835900069847040
+    m_Localized: For now, your portfolio is among the best
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2837578525450240
+    m_Localized: This door leads to the Artificial Intelligence room <br>... <br>
+      It seems it is not ready yet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2939945497403392
+    m_Localized: A statue of the goddess Malac
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2940125143638016
+    m_Localized: "\xC1lvaro Torreblanca's house"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2940331532754944
+    m_Localized: Job interview
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3142345386631168
+    m_Localized: "Accessing \xC1lvaro's PC"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3142560567009280
+    m_Localized: Come back anytime
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3194267267244032
+    m_Localized: Turning off...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3287230274084864
+    m_Localized: Everything you have done has been in vain... but new opportunities
+      will always arise.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3287261819445248
+    m_Localized: Do you want to try again?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3349613306716160
+    m_Localized: '{value1} wants to interview you for a job'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3352306750332928
+    m_Localized: What will {value1} do now?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3352762666983424
+    m_Localized: '{value1} used {value2}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3353127873421312
+    m_Localized: '{value1} is confused'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3353671845289984
+    m_Localized: '{value1} is so confused that they hurt themselves!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3354105188196352
+    m_Localized: '{value1} is no longer confused'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3354763853307904
+    m_Localized: '{value1} increased their defense'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3355136546578432
+    m_Localized: '{value1}''s defense decreased'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3355405732814848
+    m_Localized: '{value1} recovered health.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3355980016918528
+    m_Localized: '{value1} lost the battle...'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3356291146194944
+    m_Localized: You can't run away from a job interview
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3518908766625792
+    m_Localized: You can't do that
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3522870458720256
+    m_Localized: '{value1} ran out of moves'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3630775052804096
+    m_Localized: Finally! Today is the day of my job interview!<br>...<br>....mmh<br>I
+      better check my resume before anything else; it should be on my PC...<br>Then
+      I could go to the interview.<br>I think it was in the big building on the beach,
+      south of here.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3631939886522368
+    m_Localized: 'Choose your language:'
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

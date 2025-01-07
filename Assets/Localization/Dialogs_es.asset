@@ -1,0 +1,152 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Dialogs_es
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: es
+  m_SharedData: {fileID: 11400000, guid: 3b4be280435bcf74bb5451e511119502, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 59752587264
+    m_Localized: "Encendiendo el PC de \xC1lvaro<br>...<br>Aqu\xED podr\xE1s ver
+      mi curr\xEDculum, ponerte en contacto conmigo o cambiar las opciones del juego.<br>\xBFQuieres
+      acceder?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2798508474638336
+    m_Localized: "Lamentamos comunicarte que no contin\xFAas en el proceso de selecci\xF3n....
+      <br> es lo que te dir\xE9 cuando acabe contigo"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2829177854631936
+    m_Localized: Pasas a la siguiente fase
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2829364304027648
+    m_Localized: "\xBFYa has leido 'C\xF3digo limpio' de Robert C. Martin?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2835670591086592
+    m_Localized: "Quiz\xE1s hayas impresionado a los dem\xE1s, pero conmigo no lo
+      vonseguir\xE1s..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2835900069847040
+    m_Localized: "De momento tu portafolio est\xE1 entre los mejores"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2837578525450240
+    m_Localized: "Esta puerta lleva a la sala de Inteligencia Artificial <br>...
+      <br> Parece que a\xFAn no est\xE1 lista"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2939945497403392
+    m_Localized: Una estatua de la diosa Malac
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2940125143638016
+    m_Localized: "Casa de \xC1lvaro Torreblanca"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2940331532754944
+    m_Localized: Entrevista de trabajo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3142345386631168
+    m_Localized: "Accediendo al PC de \xC1lvaro..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3142560567009280
+    m_Localized: Vuelve cuando quieras
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3194267267244032
+    m_Localized: Apagando...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3287230274084864
+    m_Localized: "Todo lo que has hecho ha sido en vano... pero siempre surgir\xE1n
+      nuevas oportunidades."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3287261819445248
+    m_Localized: "\xBFQuieres probar de nuevo?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3349613306716160
+    m_Localized: '{value1} quiere hacerte una entrevista de trabajo'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3352306750332928
+    m_Localized: "\xBFQu\xE9 har\xE1 {value1} ahora?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3352762666983424
+    m_Localized: "{value1} us\xF3 {value2}"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3353127873421312
+    m_Localized: "{value1} est\xE1 confuso"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3353671845289984
+    m_Localized: "\xA1{value1} est\xE1 tan confuso que se hiere a s\xED mismo!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3354105188196352
+    m_Localized: "{value1} ya no est\xE1 confuso"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3354763853307904
+    m_Localized: "{value1} aument\xF3 su defensa"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3355136546578432
+    m_Localized: "La defensa de {value1}  baj\xF3"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3355405732814848
+    m_Localized: "{value1} recuper\xF3 salud"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3355980016918528
+    m_Localized: "{value1} perdi\xF3 la batalla..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3356291146194944
+    m_Localized: No puedes huir de una entrevista de trabajo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3518908766625792
+    m_Localized: No puedes hacer eso
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3522870458720256
+    m_Localized: "{value1} se qued\xF3 sin movimientos"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3630775052804096
+    m_Localized: "\xA1Por fin! \xA1Hoy es el d\xEDa de mi entrevista de trabajo!<br>...<br>....mmh<br>Ser\xE1
+      mejor que revise mi curr\xEDculum antes de nada; deber\xEDa estar en mi PC...<br>Despu\xE9s
+      podr\xEDa ir a la entrevista.<br>Creo que era en el edificio grande que est\xE1
+      en la playa, al sur de aqu\xED"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3631939886522368
+    m_Localized: 'Elige un idioma:'
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

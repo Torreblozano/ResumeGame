@@ -1,0 +1,148 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Dialogs Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Dialogs
+  m_TableCollectionNameGuidString: 3b4be280435bcf74bb5451e511119502
+  m_Entries:
+  - m_Id: 59752587264
+    m_Key: PC_01
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2798508474638336
+    m_Key: RECRUITER_DIALOG_ENTRY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2829177854631936
+    m_Key: RECRUITER_DIALOG_DEFEATED
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2829364304027648
+    m_Key: RECRUITER_DIALOG_TEAM_LEAD_ENTRY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2835670591086592
+    m_Key: BOSS_DIALOG_ENTRY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2835900069847040
+    m_Key: BOSS_DIALOG_DEFEATED
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2837578525450240
+    m_Key: DOOR_INTERACTABLE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2939945497403392
+    m_Key: MALAC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2940125143638016
+    m_Key: ALVARO_HOUSE_SIGN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2940331532754944
+    m_Key: GYM_SIGN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3142345386631168
+    m_Key: PC_ACCESS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3142560567009280
+    m_Key: PC_CLOSE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3194267267244032
+    m_Key: PC_OFF
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3287230274084864
+    m_Key: GAME_OVER_01
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3287261819445248
+    m_Key: GAME_OVER_02
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3349613306716160
+    m_Key: BATTLE_ENTRY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3352306750332928
+    m_Key: BATTLE_ACTION
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3352762666983424
+    m_Key: BATTLE_PLAYER_MOVE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3353127873421312
+    m_Key: BATTLE_IS_CONFUSE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3353671845289984
+    m_Key: BATTLE_CONFUSION_DAMAGE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3354105188196352
+    m_Key: BATTLE_CONFUSION_END
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3354763853307904
+    m_Key: BATTLE_BOOST_DEFENSE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3355136546578432
+    m_Key: BATTLE_DECREASE_DEFENSE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3355405732814848
+    m_Key: BATTLE_RECOVER_HP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3355980016918528
+    m_Key: BATTLE_LOST
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3356291146194944
+    m_Key: BATTLE_RUN_AWAY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3518908766625792
+    m_Key: CAN_NOT_DO_THAT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3522870458720256
+    m_Key: NO_MOVEMENTS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3630775052804096
+    m_Key: INIT_DIALOG
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3631939886522368
+    m_Key: CHOOSE_LANGUAGE
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 5975696790167224324
+  references:
+    version: 2
+    RefIds:
+    - rid: 5975696790167224324
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1735316212589

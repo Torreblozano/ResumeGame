@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c16e75a7055bb947bb426c55f151402, type: 3}
+  m_Name: TeamLead
+  m_EditorClassIdentifier: 
+  characterName: TeamLead
+  description: ???
+  sprite: {fileID: 1256525267, guid: f52cfd8349d1e704cba6ae39f8e71eb8, type: 3}
+  maxHp: 25
+  attack: 25
+  defense: 25
+  speed: 25
+  spAttack: 30
+  spDefense: 30
+  level: 42
+  movements:
+  - movementScriptable: {fileID: 11400000, guid: 8ee816906ceeb5a4d8564553dfc6ac56, type: 2}
+    level: 10
+  - movementScriptable: {fileID: 11400000, guid: 4750a53efe3f90a419d4b20e81612e1d, type: 2}
+    level: 10
+  - movementScriptable: {fileID: 11400000, guid: 4ea7e22544a05364cb0dc908f31e0e90, type: 2}
+    level: 10
+  - movementScriptable: {fileID: 11400000, guid: 88eede79b7bc97444aaef6c17c826bdf, type: 2}
+    level: 10

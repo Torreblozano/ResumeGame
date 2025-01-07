@@ -1,0 +1,172 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: GameLocalizations Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: GameLocalizations
+  m_TableCollectionNameGuidString: 7ac0eb10e0fec874aafff808ec7ec4cb
+  m_Entries:
+  - m_Id: 9362219008
+    m_Key: LANGUAGES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 472635678720
+    m_Key: BACK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40250517233664
+    m_Key: SUMMARY_CV
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42640142245888
+    m_Key: SUMMARY_MAIL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42817271898112
+    m_Key: SUMMARY_LINKEDIN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42928710361088
+    m_Key: SUMMARY_GIT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43048499683328
+    m_Key: SUMMARY_SETTINGS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44084626989056
+    m_Key: SUMMARY_ACADEMIC_EXP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47649680531456
+    m_Key: SUMMARY_WORK_EXP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47811614220288
+    m_Key: SUMMARY_LANGS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48180578754560
+    m_Key: SUMMARY_SKILLS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53108214865920
+    m_Key: SUMMARY_CHANGE_LANG
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53552106446848
+    m_Key: RESUME
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53669576318976
+    m_Key: MAIL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53836346040320
+    m_Key: PORTFOLIO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53991430430720
+    m_Key: SETTINGS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54125350363136
+    m_Key: EXIT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54232221229056
+    m_Key: ACADEMIC_EXP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54347543617536
+    m_Key: WORK_EXP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54603769454592
+    m_Key: SKILLS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75658395394048
+    m_Key: YES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75700040638464
+    m_Key: NO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146236707971072
+    m_Key: PERSUASION
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146553898016768
+    m_Key: SELF-LEARNING
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146657916755968
+    m_Key: WE WILL CALL YOU
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146871222280192
+    m_Key: IRRESISTIBLE JOB OFFER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 147225993289728
+    m_Key: GENERIC QUESTION
+    m_Metadata:
+      m_Items: []
+  - m_Id: 147355383373824
+    m_Key: WHERE DO YOU SEE YOURSELF IN 5 YEARS?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 147529086279680
+    m_Key: TECHNICAL TEST
+    m_Metadata:
+      m_Items: []
+  - m_Id: 147660556738560
+    m_Key: SPRINT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 147748939112448
+    m_Key: BRANCH CHANGE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 147960034238464
+    m_Key: CODE REVIEW
+    m_Metadata:
+      m_Items: []
+  - m_Id: 148073108480000
+    m_Key: SALARY ACCORDING TO THE AGREEMENT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 150300455870464
+    m_Key: FIGHT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 150395477827584
+    m_Key: RUN AWAY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 635704846065664
+    m_Key: CONTROLS
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 6303711392759545858
+  references:
+    version: 2
+    RefIds:
+    - rid: 6303711392759545858
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1736082056081

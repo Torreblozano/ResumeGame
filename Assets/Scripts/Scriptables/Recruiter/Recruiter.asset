@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c16e75a7055bb947bb426c55f151402, type: 3}
+  m_Name: Recruiter
+  m_EditorClassIdentifier: 
+  characterName: Recruiter
+  description: ???
+  sprite: {fileID: -1934290907, guid: fb6c04de6bfd9764ebf19dac88b496ef, type: 3}
+  maxHp: 35
+  attack: 25
+  defense: 25
+  speed: 25
+  spAttack: 30
+  spDefense: 30
+  level: 40
+  movements:
+  - movementScriptable: {fileID: 11400000, guid: a78b0be2b0485674a8028dc3eeca796c, type: 2}
+    level: 10
+  - movementScriptable: {fileID: 11400000, guid: 79eaf49559dd25c4d97c38719b4290d2, type: 2}
+    level: 10
+  - movementScriptable: {fileID: 11400000, guid: 74af6195fd0a1e245960d72012077175, type: 2}
+    level: 10
+  - movementScriptable: {fileID: 11400000, guid: c0b98925641eeb34f8544fe5be08ae49, type: 2}
+    level: 10

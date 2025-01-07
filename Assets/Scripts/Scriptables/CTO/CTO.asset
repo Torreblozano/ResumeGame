@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c16e75a7055bb947bb426c55f151402, type: 3}
+  m_Name: CTO
+  m_EditorClassIdentifier: 
+  characterName: CTO
+  description: ???
+  sprite: {fileID: -211402201, guid: f52cfd8349d1e704cba6ae39f8e71eb8, type: 3}
+  maxHp: 30
+  attack: 25
+  defense: 25
+  speed: 25
+  spAttack: 30
+  spDefense: 30
+  level: 45
+  movements:
+  - movementScriptable: {fileID: 11400000, guid: 848b554f481878444b26760ec9f38edb, type: 2}
+    level: 20
+  - movementScriptable: {fileID: 11400000, guid: 6d6904ba7b3f18b4eb4f91d2138d541c, type: 2}
+    level: 20
+  - movementScriptable: {fileID: 11400000, guid: 8d55047e5310aef4a8156f3752f4d9d4, type: 2}
+    level: 20
+  - movementScriptable: {fileID: 11400000, guid: 1291d0f3d280c3b4b921dced516fd258, type: 2}
+    level: 20
