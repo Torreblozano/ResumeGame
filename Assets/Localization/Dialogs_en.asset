@@ -24,8 +24,9 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 2798508474638336
-    m_Localized: We regret to inform you that you are not continuing in the selection
-      process... <br> that's what I'll say to you when I'm done with you
+    m_Localized: 'RECRUITER: We regret to inform you that you are not continuing
+      in the selection process... <br> that''s what I''ll say to you when I''m done
+      with you'
     m_Metadata:
       m_Items: []
   - m_Id: 2829177854631936
@@ -33,11 +34,12 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 2829364304027648
-    m_Localized: Have you read 'Clean Code' by Robert C. Martin?
+    m_Localized: 'TEAM LEAD: Have you read ''Clean Code'' by Robert C. Martin?'
     m_Metadata:
       m_Items: []
   - m_Id: 2835670591086592
-    m_Localized: Maybe you've impressed others, but you won't succeed with me...
+    m_Localized: 'CTO: Maybe you''ve impressed others, but you won''t succeed with
+      me...'
     m_Metadata:
       m_Items: []
   - m_Id: 2835900069847040
@@ -135,10 +137,10 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 3630775052804096
-    m_Localized: Finally! Today is the day of my job interview!<br>...<br>....mmh<br>I
+    m_Localized: 'Alvaro: Finally! Today is the day of my job interview!<br>...<br>....mmh<br>I
       better check my resume before anything else; it should be on my PC...<br>Then
       I could go to the interview.<br>I think it was in the big building on the beach,
-      south of here.
+      south of here.'
     m_Metadata:
       m_Items: []
   - m_Id: 3631939886522368

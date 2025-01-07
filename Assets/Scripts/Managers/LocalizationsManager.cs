@@ -1,8 +1,5 @@
 using Cysharp.Threading.Tasks;
-using System.Collections;
 using System.Collections.Generic;
-using System.Threading.Tasks;
-using UnityEngine;
 using UnityEngine.Localization;
 using UnityEngine.Localization.Settings;
 
@@ -31,8 +28,6 @@ public class LocalizationsManager : CustomSingleton<LocalizationsManager>
         return currentLanguageInt;
     }
 
-    // public void SaveLanguage(int _localeID) => PlayerPrefsManager.m_currentLanguage = _localeID;
-
     public async void ChangeLanguage(int _localeID)
     {
         await SetLocale(_localeID);
@@ -48,8 +43,6 @@ public class LocalizationsManager : CustomSingleton<LocalizationsManager>
     {
         await LocalizationSettings.InitializationOperation;
         LocalizationSettings.SelectedLocale = LocalizationSettings.AvailableLocales.Locales[_localeID];
-        //SaveLanguage(_localeID);
-
     }
 
     public async UniTask<string> GetDialog(string key)

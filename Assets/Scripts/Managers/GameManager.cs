@@ -239,7 +239,6 @@ public class GameManager : CustomSingleton<GameManager>
 
     public void OnBattleOver(bool playerWon)
     {
-        print(playerWon);
         if (playerWon)
         {
             AudioManager.Instance.PauseBackgroundMusic(false);
@@ -249,9 +248,7 @@ public class GameManager : CustomSingleton<GameManager>
             worldCamera.gameObject.SetActive(true);
         }
         else
-        {
-            AudioManager.Instance.PlayBackgroundMusic("GameOverScene");
-            AudioManager.Instance.PauseBackgroundMusic(false);
+        {            
             SceneManager.LoadScene("GameOver");
         }
     }

@@ -25,8 +25,8 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 2798508474638336
-    m_Localized: "Lamentamos comunicarte que no contin\xFAas en el proceso de selecci\xF3n....
-      <br> es lo que te dir\xE9 cuando acabe contigo"
+    m_Localized: "RECRUITER: Lamentamos comunicarte que no contin\xFAas en el proceso
+      de selecci\xF3n.... <br> es lo que te dir\xE9 cuando acabe contigo"
     m_Metadata:
       m_Items: []
   - m_Id: 2829177854631936
@@ -34,12 +34,12 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 2829364304027648
-    m_Localized: "\xBFYa has leido 'C\xF3digo limpio' de Robert C. Martin?"
+    m_Localized: "TEAM LEAD: \xBFYa has leido 'C\xF3digo limpio' de Robert C. Martin?"
     m_Metadata:
       m_Items: []
   - m_Id: 2835670591086592
-    m_Localized: "Quiz\xE1s hayas impresionado a los dem\xE1s, pero conmigo no lo
-      vonseguir\xE1s..."
+    m_Localized: "CTO: Quiz\xE1s hayas impresionado a los dem\xE1s, pero conmigo
+      no lo vonseguir\xE1s..."
     m_Metadata:
       m_Items: []
   - m_Id: 2835900069847040
@@ -137,7 +137,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 3630775052804096
-    m_Localized: "\xA1Por fin! \xA1Hoy es el d\xEDa de mi entrevista de trabajo!<br>...<br>....mmh<br>Ser\xE1
+    m_Localized: "Alvaro: \xA1Por fin! \xA1Hoy es el d\xEDa de mi entrevista de trabajo!<br>...<br>....mmh<br>Ser\xE1
       mejor que revise mi curr\xEDculum antes de nada; deber\xEDa estar en mi PC...<br>Despu\xE9s
       podr\xEDa ir a la entrevista.<br>Creo que era en el edificio grande que est\xE1
       en la playa, al sur de aqu\xED"
