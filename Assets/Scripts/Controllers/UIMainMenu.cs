@@ -1,45 +1,68 @@
-using Cysharp.Threading.Tasks;
-using DG.Tweening;
 using UnityEngine;
-using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
+using UnityEngine.InputSystem;
+using DG.Tweening;
+using Cysharp.Threading.Tasks; // Asegúrate de que DOTween está correctamente instalado en tu proyecto.
 
 public class UIMainMenu : MonoBehaviour
 {
-    public GameObject mainPanel, languagePanel;
+    public GameObject mainPanel, languagePanel, startbuttonPanel;
     public PlayerInput playerInput;
 
     private void Awake()
     {
+        startbuttonPanel.SetActive(true);
         playerInput.enabled = false;
-        AudioManager.Instance.PlayBackgroundMusic("GameOverScene");
+        AudioManager.Instance.PlayBackgroundMusic("PokemonTheme");
     }
 
-    private async void Start()
+    public async void StartButton()
     {
-        await UniTask.WaitForSeconds(2);
-        FadeOutAndActivateLanguagePanel();
+        // Reproduce el sonido de aceptar.
+        AudioManager.Instance.PlaySFX("AcceptButton");
+        AudioManager.Instance.PauseBackgroundMusic(true);
+        // Desactiva el panel de botón de inicio y activa el panel principal.
+        startbuttonPanel.SetActive(false);
+        mainPanel.SetActive(true);
+
+        await UniTask.WaitForSeconds(3);
+        // Realiza el fadeOut de mainPanel y fadeIn de languagePanel.
+        FadeOutMainPanelAndShowLanguagePanel();
     }
 
-    private void FadeOutAndActivateLanguagePanel()
+    private void FadeOutMainPanelAndShowLanguagePanel()
     {
-        CanvasGroup canvasGroup = mainPanel.GetComponent<CanvasGroup>();
+        // Asegúrate de que mainPanel tiene un CanvasGroup asignado.
+        CanvasGroup mainCanvasGroup = mainPanel.GetComponent<CanvasGroup>();
+        CanvasGroup languageCanvasGroup = languagePanel.GetComponent<CanvasGroup>();
 
-        if (canvasGroup != null)
+        if (mainCanvasGroup != null && languageCanvasGroup != null)
         {
-            canvasGroup.DOFade(0f, 1f)
-                .OnComplete(async () => {
-                    mainPanel.SetActive(false);
-                    await UniTask.WaitForSeconds(2f);
-                    languagePanel.SetActive(true);
+            // Configura el fadeOut de mainPanel.
+            mainCanvasGroup.DOFade(0f, 2f).OnComplete(() =>
+            {
+                mainPanel.SetActive(false); // Desactiva mainPanel después del fadeOut.
+
+                // Activa languagePanel y realiza el fadeIn.
+                languagePanel.SetActive(true);
+                languageCanvasGroup.alpha = 0f; // Asegúrate de que empieza invisible.
+                languageCanvasGroup.DOFade(1f, 2f).OnComplete(() =>
+                {
+                    // Habilita playerInput después de que termine el fadeIn.
                     playerInput.enabled = true;
                 });
+            });
+        }
+        else
+        {
+            Debug.LogError("CanvasGroup no encontrado en los paneles.");
         }
     }
 
-    public void RunGame(int index)
+    public async void RunGame(int index)
     {
-        LocalizationsManager.Instance.ChangeLanguage(index);
+        // Cambia el idioma y carga la escena principal.
+        await LocalizationsManager.Instance.ChangeLanguage(index);
         SceneManager.LoadScene(1);
     }
 }

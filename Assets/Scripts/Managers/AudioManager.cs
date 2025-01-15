@@ -51,22 +51,16 @@ public class AudioManager : CustomSingleton<AudioManager>
     /// <param name="address">The Addressable address of the AudioClip.</param>
     public void PlayBackgroundMusic(string address)
     {
-        Addressables.LoadAssetAsync<AudioClip>(address).Completed += (operation) =>
+        // Start loading the AudioClip asynchronously
+        LoadAudioClipAsync(address, (clip) =>
         {
-            if (operation.Status == AsyncOperationStatus.Succeeded)
+            if (clip != null && backgroundMusicSource.clip != clip)
             {
-                AudioClip clip = operation.Result;
-                if (backgroundMusicSource.clip == clip) return;
-
                 backgroundMusicSource.clip = clip;
                 backgroundMusicSource.loop = true;
                 backgroundMusicSource.Play();
             }
-            else
-            {
-                Debug.LogError($"Failed to load background music: {address}");
-            }
-        };
+        });
     }
 
     /// <summary>
@@ -75,15 +69,32 @@ public class AudioManager : CustomSingleton<AudioManager>
     /// <param name="address">The Addressable address of the AudioClip.</param>
     public void PlaySFX(string address)
     {
+        LoadAudioClipAsync(address, (clip) =>
+        {
+            if (clip != null)
+            {
+                sfxSource.PlayOneShot(clip);
+            }
+        });
+    }
+
+    /// <summary>
+    /// Loads an AudioClip asynchronously and calls the callback with the result.
+    /// </summary>
+    /// <param name="address">The Addressable address of the AudioClip.</param>
+    /// <param name="callback">Callback to execute with the loaded AudioClip.</param>
+    private void LoadAudioClipAsync(string address, System.Action<AudioClip> callback)
+    {
         Addressables.LoadAssetAsync<AudioClip>(address).Completed += (operation) =>
         {
             if (operation.Status == AsyncOperationStatus.Succeeded)
             {
-                sfxSource.PlayOneShot(operation.Result);
+                callback?.Invoke(operation.Result);
             }
             else
             {
-                Debug.LogError($"Failed to load SFX: {address}");
+                Debug.LogError($"Failed to load audio clip: {address}");
+                callback?.Invoke(null); // Call the callback with null in case of failure
             }
         };
     }

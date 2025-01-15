@@ -24,7 +24,7 @@ public class SettingsState : MenuStateBase
         optionsPanel.SetActive(false);
     }
 
-    public override void AcceptSelection()
+    public override async void AcceptSelection()
     {
         if (!optionsPanel.activeSelf) 
         {
@@ -39,7 +39,7 @@ public class SettingsState : MenuStateBase
         }
         else
         {
-            LocalizationsManager.Instance.ChangeLanguage(currentLanguage);
+            await LocalizationsManager.Instance.ChangeLanguage(currentLanguage);
             optionsPanel.SetActive(false);
         }            
     }

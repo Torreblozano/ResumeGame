@@ -45,15 +45,16 @@ public class GameManager : CustomSingleton<GameManager>
         }
     }
 
-    private new void Awake()
+    private new async void Awake()
     {
         CurrentState = GameState.NOTHING;
         int currentLanguage = LocalizationsManager.Instance.currentLanguageIndex;
-        LocalizationsManager.Instance.ChangeLanguage(currentLanguage);
+        await LocalizationsManager.Instance.ChangeLanguage(currentLanguage);
     }
 
     void Start()
     {
+        AudioManager.Instance.PauseBackgroundMusic(false);
         AudioManager.Instance.PlayBackgroundMusic("Home");
         cameraController = worldCamera.GetComponent<CameraController>();
         originalCullingMask = worldCamera.cullingMask;

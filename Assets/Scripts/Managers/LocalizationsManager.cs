@@ -5,9 +5,8 @@ using UnityEngine.Localization.Settings;
 
 public class LocalizationsManager : CustomSingleton<LocalizationsManager>
 {
-    public string currentLanguage { get { return CurrentLanguage(); } }
-
-    public int currentLanguageIndex { get { return CurrentLanguageIndex(); } }
+    public string currentLanguage => CurrentLanguage();
+    public int currentLanguageIndex => CurrentLanguageIndex();
 
     private string CurrentLanguage()
     {
@@ -19,30 +18,38 @@ public class LocalizationsManager : CustomSingleton<LocalizationsManager>
     {
         Locale currentLocale = LocalizationSettings.SelectedLocale;
 
-        Dictionary<string, int> languageKeyToInt = new Dictionary<string, int>();
-        languageKeyToInt.Add("en", 0);
-        languageKeyToInt.Add("es", 1);
+        Dictionary<string, int> languageKeyToInt = new Dictionary<string, int>
+        {
+            { "en", 0 },
+            { "es", 1 }
+        };
 
         string currentLanguageKey = currentLocale.Identifier.Code;
-        int currentLanguageInt = languageKeyToInt[currentLanguageKey];
-        return currentLanguageInt;
+        return languageKeyToInt.TryGetValue(currentLanguageKey, out int currentLanguageInt) ? currentLanguageInt : -1; // Return -1 if not found
     }
 
-    public async void ChangeLanguage(int _localeID)
+    public async UniTask ChangeLanguage(int localeID)
     {
-        await SetLocale(_localeID);
+        await SetLocale(localeID);
     }
 
-    public async void ChangeLanguage(string _localeID)
+    public async UniTask ChangeLanguage(string localeID)
     {
-        int index = _localeID == "en" ? 0 : 1;
+        int index = localeID == "en" ? 0 : 1;
         await SetLocale(index);
     }
 
-    public async UniTask SetLocale(int _localeID)
+    private async UniTask SetLocale(int localeID)
     {
         await LocalizationSettings.InitializationOperation;
-        LocalizationSettings.SelectedLocale = LocalizationSettings.AvailableLocales.Locales[_localeID];
+
+        if (localeID < 0 || localeID >= LocalizationSettings.AvailableLocales.Locales.Count)
+        {
+            print("Invalid locale ID: " + localeID);
+            return;
+        }
+
+        LocalizationSettings.SelectedLocale = LocalizationSettings.AvailableLocales.Locales[localeID];
     }
 
     public async UniTask<string> GetDialog(string key)
@@ -50,11 +57,13 @@ public class LocalizationsManager : CustomSingleton<LocalizationsManager>
         var table = await LocalizationSettings.StringDatabase.GetTableAsync("Dialogs");
 
         if (table == null)
+        {
+            print("Dialogs table not found.");
             return "";
-
+        }
 
         var entry = table.GetEntry(key);
-        return entry == null ? string.Empty : entry.Value;
+        return entry?.Value ?? string.Empty;
     }
 
     public async UniTask<string> GetString(string key)
@@ -62,10 +71,12 @@ public class LocalizationsManager : CustomSingleton<LocalizationsManager>
         var table = await LocalizationSettings.StringDatabase.GetTableAsync("GameLocalizations");
 
         if (table == null)
+        {
+            print("GameLocalizations table not found.");
             return "";
-
+        }
 
         var entry = table.GetEntry(key);
-        return entry == null ? string.Empty : entry.Value;
+        return entry?.Value ?? string.Empty;
     }
 }

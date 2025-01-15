@@ -137,10 +137,11 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 3630775052804096
-    m_Localized: 'Alvaro: Finally! Today is the day of my job interview!<br>...<br>....mmh<br>I
-      better check my resume before anything else; it should be on my PC...<br>Then
-      I could go to the interview.<br>I think it was in the big building on the beach,
-      south of here.'
+    m_Localized: 'Alvaro: Finally! Today is the day of my job interview!<br>...<br>....mmh<br>I''d
+      better review my resume first; it should be on my PC...<br>After that, I could
+      head to the job interview.<br>...<br>Where was the interview?<br>...<br>Now
+      I remember! It was very close to here!<br>I just need to go to the big building
+      located on the beach, south of here.'
     m_Metadata:
       m_Items: []
   - m_Id: 3631939886522368

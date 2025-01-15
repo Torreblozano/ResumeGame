@@ -21,7 +21,7 @@ MonoBehaviour:
   speed: 25
   spAttack: 30
   spDefense: 30
-  level: 40
+  level: 36
   movements:
   - movementScriptable: {fileID: 11400000, guid: a78b0be2b0485674a8028dc3eeca796c, type: 2}
     level: 10
